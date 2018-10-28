@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginHorizontal="15dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    >
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Sub Total" />
+
+
+        <TextView
+            android:id="@+id/tvTotalQuantity"
+            style="@style/tvQuantity"
+            android:text="10" />
+
+        <TextView
+            android:id="@+id/tvTotalPerimeter"
+            style="@style/tvPerimeter"
+            android:text="100 m" />
+
+        <TextView
+            android:id="@+id/tvSubTotal"
+            style="@style/tvHarga"
+            android:text="500.000" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvDll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:text="Dll" />
+
+
+        <TextView
+            android:id="@+id/tvDllPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="end"
+            android:text="0" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvScreenPortPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="Screenport @35000/pc" />
+
+        <TextView
+            android:id="@+id/tvScreenPortQuantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="1 pc(s)" />
+
+        <TextView
+            android:id="@+id/tvTotalScreenPort"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="end"
+            android:text="35000" />
+    </TableRow>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:gravity="end"
+            android:text="Total"/>
+        <TextView
+            android:id="@+id/tvTotalPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="end"
+            android:text="1.00.00"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:gravity="end"
+            android:text="panjar"/>
+        <TextView
+            android:id="@+id/tvPanjar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="end"
+            android:text="1.00.00"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:gravity="end"
+            android:text="Sisa"/>
+        <TextView
+            android:id="@+id/tvSisa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="end"
+            android:text="1.00.00"/>
+    </LinearLayout>
+
+
+    <TableRow
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvPricePerMeter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Harga dasar @50000 per meter" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipe = Baja(Hitam)" />
+
+</TableLayout>
+
+    <!-- TODO add Sub total, panjar, screenport@some random price, total--><!--TODO move name and address to header-->

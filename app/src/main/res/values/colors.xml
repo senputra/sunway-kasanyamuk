@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#168485</color>
+    <color name="colorPrimaryDark">#137071</color>
+    <color name="colorAccent">#00975b</color>
+    <color name="dialogButton">#118684</color>
+
+    <color name="fabPressed">#e1b819</color>
+    <color name="fab">#ac8d13</color>
+    <color name="fab_menu">#ffca6d</color>
+    <color name="fab_menuPressed">#ffe3b1</color>
+
+    <color name="black_semi_transparent">#8d000000</color>
+</resources>

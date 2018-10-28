@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">Sunway Kasa Nyamuk</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="preference_file_key">ulala</string>
+
+
+    <string name="header"><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+	<style>
+    *{
+		font-size: 12px
+	}
+	table{
+		border-collapse:collapse;
+		width:100%% ;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#left{
+		text-align:  left;
+	}
+	#right{
+		text-align :right;
+	}
+	#price{
+		text-align : right;
+		font-weight: bold;
+	}
+	#subtotal{
+		text-align : left;
+		font-weight: bold;
+	}
+	.company{
+		font-weight: bold;
+		font-size: 25px;
+	}
+	.blank_row
+	{
+		height: 10px !important; /* overwrites any other rules */
+		background-color: #FFFFFF;
+	}
+	.bottomborder{
+		border-bottom: 1px solid black;
+		border-bottom-style: double;
+	}
+	th{
+		font-family: Roboto;
+	}
+	td{
+		font-family: Roboto;
+	}
+	.paddingdikit{
+		padding : 15px 0px 15px 0px;
+	}
+	#hargadasar{
+		width: 90px;
+	}
+</style>
+
+
+<title>Penawaran</title>
+</head>
+<body>
+
+	<table>
+		<tr >
+			<th id = "left" class = "company">SUNWAY</th>
+		</tr>
+		<tr class="blank_row">
+			<td colspan="4"></td>
+		</tr>
+		<tr >
+			<th id = "left">%s</th>
+		</tr>
+		<tr >
+			<th id = "left">%s</th>
+		</tr>
+		<tr >
+			<th id = "left" colspan="4">%s</th>
+		</tr>
+		<tr class="blank_row" >
+			<td colspan="5" class="bottomborder"></td>
+		</tr>
+		<tr class = "bottomborder">
+			<th id = "left" class="paddingdikit">Lokasi</th>
+			<th id = "right">L(cm) X T(cm)</th>
+			<th id = "right">Quantity</th>
+			<th id = "right">Keliling(m)</th>
+			<th id = "right">Harga</th>
+		</tr>
+		<tr class="blank_row">
+			<td colspan="5"></td>
+		</tr>
+
+	]]></string>
+
+    <string name="content"><![CDATA[<tr>
+			<td id = "left">%s</td>
+			<td id = "right">%.1f X %.1f</td>
+			<td id = "right">%.0f pcs</td>
+			<td id = "right">%.2f + %.2f</td>
+			<td id = "right">Rp. %s</td>
+		</tr>]]></string>
+
+    <string name="contentNoAdditionalPerimeter"><![CDATA[<tr>
+			<td id = "left">%s</td>
+			<td id = "right">%.1f X %.1f</td>
+			<td id = "right">%.0f pcs</td>
+			<td id = "right">%.2f</td>
+			<td id = "right">Rp. %s</td>
+		</tr>]]></string>
+
+    <string name="footer"><![CDATA[
+        <tr class="blank_row">
+			<td colspan="5" class="bottomborder"></td>
+		</tr>
+		<tr class="blank_row">
+			<td></td>
+		</tr>
+		<tr>
+			<td id="subtotal">Sub Total</td>
+			<td></td>
+			<td id ="right">%.0f pcs</td>
+			<td id = "right">%.2fm</td>
+			<td id="price">%s</td>
+		</tr>
+		<tr>
+			<td colspan="4">dll (%s)</td>
+			<td id = "right">%s</td>
+		</tr>
+		<tr>
+			<td>Screenport @%.0f/pc</td>
+			<td></td>
+			<td></td>
+			<td id = "right">%.0fpcs</td>
+			<td id = "right">%s</td>
+		</tr>
+		<tr>
+			<td colspan="3"/>
+			<td id="price">Total</td>
+			<td id="price">Rp %s</td>
+		</tr>
+		<tr>
+			<td colspan="3"/>
+			<td id="price">Panjar</td>
+			<td id="price" >- Rp %s</td>
+		</tr>
+		<tr >
+			<td colspan="3"/>
+			<td id="price">Sisa</td>
+			<td id="price">Rp %s</td>
+			<tr class="blank_row" >
+				<td colspan="5" class="bottomborder"></td>
+			</tr>
+		</tr>
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td colspan="4">*Setiap bentuk coak tambah 0.5m</td>
+					</tr>
+					<tr class="blank_row">
+						<td colspan="4"></td>
+					</tr>
+					<tr class="blank_row">
+						<td colspan="2"></td>
+					</tr>
+					<tr class="blank_row">
+						<td colspan="2"></td>
+					</tr>
+					<tr>
+						<td id = "hargadasar">Harga Dasar</td>
+						<td> = </td>
+						<td>Rp %.0f/m</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Tipe(warna)</td>
+						<td> = </td>
+						<td> %s</td>
+						<td></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+	</table>
+
+</body>
+</html>
+]]></string>
+</resources>

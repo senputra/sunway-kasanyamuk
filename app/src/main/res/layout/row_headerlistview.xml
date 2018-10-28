@@ -1,0 +1,72 @@
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginEnd="15dp"
+    android:layout_marginHorizontal="15dp"
+    android:layout_marginStart="15dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="James Tan" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="Date" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="Jalan Ksara No.64A" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:text="Lokasi"
+            style="@style/tvLocation" />
+
+
+        <TextView
+            android:id="@+id/tvDimesion"
+            android:text="L (cm) X T (cm)"
+            style="@style/tvDimesion" />
+        <TextView
+            android:text="Q"
+            style="@style/tvQuantity" />
+
+        <TextView
+            android:id="@+id/tvPerimeter"
+            android:text="Keliling (m)"
+            style="@style/tvPerimeter" />
+
+
+        <TextView
+            android:id="@+id/tvTotalPrice"
+            android:text="Harga"
+            style="@style/tvHarga" />
+    </LinearLayout>
+</android.support.v7.widget.LinearLayoutCompat>
