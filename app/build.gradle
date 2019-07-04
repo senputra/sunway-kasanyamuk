@@ -36,8 +36,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     implementation 'com.android.support:recyclerview-v7:26.1.0'
-    compile 'com.google.code.gson:gson:2.8.0'
-    compile 'com.google.guava:guava:23.5-android'
-    compile 'gun0912.ted:tedpermission:2.1.0'
-    compile 'com.getbase:floatingactionbutton:1.10.1'
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'com.google.guava:guava:23.5-android'
+    implementation 'gun0912.ted:tedpermission:2.1.0'
+    implementation 'com.getbase:floatingactionbutton:1.10.1'
 }

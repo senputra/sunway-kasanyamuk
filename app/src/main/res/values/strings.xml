@@ -156,7 +156,7 @@
 			</tr>
 		</tr>
 		<tr>
-			<td>
+			<td colspan="5">
 				<table>
 					<tr>
 						<td colspan="4">*Setiap bentuk coak tambah 0.5m</td>
@@ -179,7 +179,7 @@
 					<tr>
 						<td>Tipe(warna)</td>
 						<td> = </td>
-						<td> %s</td>
+						<td colspan="5"> %s</td>
 						<td></td>
 					</tr>
 				</table>
